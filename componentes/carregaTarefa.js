@@ -12,4 +12,5 @@ export const carregaTarefa = () => {
     dataUnicas.forEach((dia) => {
             lista.appendChild(criaData(dia))
     })
+
 }

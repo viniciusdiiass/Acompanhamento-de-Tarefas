@@ -9,14 +9,14 @@ const concluirTarefa = (atualiza, id) => {
 }
 
 
-const BotaoConclui = (atualiza, id) => { 
+const BotaoConclui = (carregaTarefa, id) => { 
     const botaoConclui = document.createElement('button')  
     
     botaoConclui.classList.add('check-button')
     botaoConclui.innerText = 'concluir'
 
     botaoConclui.addEventListener('click', ()=> 
-        concluirTarefa(atualiza, id)
+        concluirTarefa(carregaTarefa, id)
     )
     return botaoConclui
 }
