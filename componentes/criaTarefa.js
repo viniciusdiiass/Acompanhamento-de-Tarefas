@@ -27,6 +27,7 @@ export const handleNovoItem = (evento) => {
     localStorage.setItem('tarefas', JSON.stringify(tarefasAtualizadas));
 
     input.value = " ";
+    calendario.value = " ";
 
     carregaTarefa();
     
